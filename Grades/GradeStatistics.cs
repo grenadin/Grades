@@ -2,7 +2,7 @@
 {
 
     //Hold only Gradestatistic information
-    internal class GradeStatistics
+    public class GradeStatistics
     {
         public GradeStatistics()
         {
@@ -10,8 +10,8 @@
             LowestGrade = float.MaxValue;//
         }
 
-        internal float AverageGrade;
-        internal float HighestGrade;
-        internal float LowestGrade;
+        public float AverageGrade;
+        public float HighestGrade;
+        public float LowestGrade;
     }
 }

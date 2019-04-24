@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
@@ -12,4 +12,11 @@
     <PackageReference Include="MSTest.TestFramework" Version="1.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="Grades">
+      <HintPath>..\Grades\bin\Release\netcoreapp2.2\Grades.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+ 
 </Project>

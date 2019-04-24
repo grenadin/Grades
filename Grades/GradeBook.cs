@@ -6,7 +6,7 @@ using System.Text;
 //This Gradebook hold only the member of grade information
 namespace Grades
 {
-    class GradeBook
+    public class GradeBook
     {
         List<float> grades;
 

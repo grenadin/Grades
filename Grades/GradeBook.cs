@@ -23,7 +23,7 @@ namespace Grades
 
         public GradeStatistics ComputeStatistics()
         {
-            GradeStatistics stats = new GradeStatistics(); //This code is for allocate memory
+            GradeStatistics stats = new GradeStatistics(); //This code is for allocate memory but Dependency.
             
           
             float sum = 0;

@@ -7,7 +7,10 @@ namespace Grades
     {
         static void Main(string[] args)
         {
+
+           
             
+
             GradeBook book = new GradeBook();
             book.AddGrade(91);
             book.AddGrade(89.5f);
@@ -19,6 +22,8 @@ namespace Grades
             Console.WriteLine($"Show Highest Grade {stats.HighestGrade}");
             Console.WriteLine($"Show Lowest Grade {stats.LowestGrade}");
             Console.WriteLine($"Show Average Grade {stats.AverageGrade}");
+            Console.ReadLine();
+            
 
 
         }

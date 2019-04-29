@@ -9,7 +9,7 @@ namespace Grades
         {
             GradeBook g1 = new GradeBook();
             GradeBook g2 = g1;
-            g1.a
+            
             g1.Name = "Harirak";
             Console.WriteLine($" g2 = {g2.Name}");
             g2.Name = "toon";

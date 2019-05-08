@@ -10,8 +10,14 @@
             LowestGrade = float.MaxValue;//
         }
 
+        public void SomeMethod()
+        {
+        }
+
         public float AverageGrade;
         public float HighestGrade;
         public float LowestGrade;
+
+
     }
 }

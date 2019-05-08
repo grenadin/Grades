@@ -12,8 +12,25 @@ namespace Grades.Test
     public class GradeBookTests
     {
         [TestMethod]
+        public void UsingArray()
+        {
+            float[] grades;
+            grades = new float[3];
+
+            AddGrade(grades);
+            Assert.AreEqual(89.5f, grades[1]);
+
+        }
+
+        private void AddGrade(float[] grades)
+        {
+            grades[1] = 89.5f;
+        }
+
+        [TestMethod]
         public void ComputesHighestGrade()
         {
+            
             GradeBook book = new GradeBook();
             book.AddGrade(10);
             book.AddGrade(90);
